@@ -10,13 +10,14 @@ const sum = function(args) {
   return args.reduce((sum, current) => sum + current, 0);
 };
 
-const multiply = function() {
-
+const multiply = function(args) {
+  return args.reduce((sum, current) => sum * current);
 };
 
-const power = function() {
-	
+const power = function(num1, num2) {
+
 };
+console.log(power(4,3));
 
 const factorial = function() {
 	
