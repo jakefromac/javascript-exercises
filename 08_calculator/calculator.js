@@ -15,12 +15,15 @@ const multiply = function(args) {
 };
 
 const power = function(num1, num2) {
-
+  return Math.pow(num1, num2)
 };
-console.log(power(4,3));
 
-const factorial = function() {
-	
+const factorial = function(n) {
+	if (n == 0) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
 };
 
 // Do not edit below this line
